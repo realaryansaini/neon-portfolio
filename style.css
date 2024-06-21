@@ -2,11 +2,15 @@ body{
     margin: 0;
     padding: 0;
     background-color: #11111F;
-    overflow-x: hidden;
-    position: relative;
+    /* overflow-x: hidden; */
+    
 }
 
 
+.main{
+    position: relative;
+    overflow-x: hidden;
+}
 
 .circle{
     position: absolute;
