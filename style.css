@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #11111F;
+    overflow-x: hidden;
 }
 
 
@@ -198,7 +199,7 @@ a:hover{
 }
 
 
-@media (max-width:400px) {
+@media (max-width:450px) {
     .project a{
         font-size: 1.1rem;
     }
@@ -213,5 +214,8 @@ a:hover{
 
     .footer img{
         width: 20px;
+    }
+    .copyright{
+        font-size: 1rem;
     }
 }
